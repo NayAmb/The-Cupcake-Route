@@ -198,15 +198,23 @@ footer a {
 
 /* Hover effect */
 footer a:hover {
-  color: var(--brown);
+  color: var(--dark-pink);
 }
 
 nav a:focus,
 main a:focus,
 footer a:focus,
 button:focus {
-  outline: 3px solid var(--brown);
-  outline-offset: 3px;
+  outline: 2px solid var(--dark-pink);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+nav a,
+main a,
+footer a,
+button {
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* ===== Hamburger menu ===== */
