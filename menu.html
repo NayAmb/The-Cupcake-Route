@@ -11,11 +11,17 @@
 <body>
 
 <header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
+  <nav aria-label="Main navigation">
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">☰</button>
+
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
   </nav>
 </header>
 
@@ -34,7 +40,7 @@
     <h2>Specialty Flavors</h2>
     <ul>
       <li>S’mores Cupcake - $3.00</li>
-      <li>Cookies & Cream Explosion - $3.00</li>
+      <li>Oreo Explosion - $3.00</li>
       <li>Banana Split - $3.00</li>
       <li>Tres Leches - $3.00</li>
     </ul>
@@ -49,13 +55,15 @@
 
     <p><strong>Note:</strong> Some cupcakes may contain nuts or dairy.</p>
 
-    <a href="https://www.doordash.com/" target="_blank">Order Now</a>
+    <a href="https://www.doordash.com/" target="_blank" rel="noopener noreferrer">Order Now</a>
   </section>
 </main>
 
 <footer>
   <p>&copy; 2026 The Cupcake Route</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
